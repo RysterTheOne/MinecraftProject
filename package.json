@@ -1,0 +1,17 @@
+{
+  "name": "bedrock-webservice",
+  "version": "1.0.0",
+  "description": "Web service for a Minecraft Bedrock behavior pack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Ryster",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
