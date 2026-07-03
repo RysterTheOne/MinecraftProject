@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // Home route
-app.get("/", (req, res) => {
+app.get("/status", (req, res) => {
     res.json({
         success: true,
         message: "Bedrock Web Service Online"
